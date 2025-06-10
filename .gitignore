@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Environment variables
+backend/.env
+frontend/.env.local
+
+# Backend build artifacts
+backend/dist/
+backend/.cache/
+backend/tsconfig.build.tsbuildinfo
+
+# Frontend build artifacts
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Prisma generated files
+backend/prisma/migrations/
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
